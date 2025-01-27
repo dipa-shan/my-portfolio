@@ -1,3 +1,3 @@
 # my-portfolio
 
-https://github.com/dipa-shan/my-portfolio.git
+https://dipa-shan.github.io/my-portfolio/
