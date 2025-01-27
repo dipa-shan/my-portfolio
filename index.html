@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Hello! I am [Your Name], a [Your Profession]. Explore my work and feel free to get in touch!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate [Your Profession] with expertise in [list your skills/technologies]. I love working on
+            [types of projects] and continually challenge myself to grow and innovate.</p>
+        <p>Feel free to browse through my portfolio and learn more about my work!</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of your project goes here.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of your project goes here.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>Description of your project goes here.</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out via the following methods:</p>
+        <ul>
+            <li>Email: your.email@example.com</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile"
+                    target="_blank">linkedin.com/in/yourprofile</a></li>
+            <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+        </ul>
+        <p>Alternatively, you can fill out the form below to send a direct message.</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+    
+    <button id="backToTopBtn" style="display: none;">Back to Top</button>
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
